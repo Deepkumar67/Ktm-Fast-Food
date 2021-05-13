@@ -1,0 +1,120 @@
+$deep:white;
+$kumar:red;
+$maharjan:black;
+
+ul{
+    .cart{
+        color:$kumar;
+        margin-top: 20px;
+        margin-left: auto;
+    }
+}
+
+    div {
+        .slide{
+            width: 100%;
+            height: 80vh;
+            
+        }
+    }
+
+    div{
+        .todaySpecial{
+            color:$deep;
+            margin:50px;
+        }
+        .todaySpecial:after{
+            width:10vw;
+            height:3px;
+            position:relative;
+            display: block;
+            content:'';
+            bottom: -5px;
+            background-color:$deep;
+        }
+    }
+
+div{
+    .card{
+        width: 16rem;
+        border:none;
+    }
+    .card-body{
+        background-color:$maharjan;
+        color: $deep;
+
+    }
+    .gridimage{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 5%;
+    }
+    button{
+        background-color:$kumar;
+        color: $deep;
+        margin-top: 20px;
+    }
+}
+div{
+    .testimonial{
+        font-weight: bold;
+        color: $deep;
+        letter-spacing: 1px;
+    }
+    .testimonial:after{
+            width:10vw;
+            height:3px;
+            position:relative;
+            display: block;
+            content:'';
+            bottom: -5px;
+            background-color:$deep;
+            margin:auto;
+
+    }
+    .contact{
+        color: $deep;
+        letter-spacing: 1px;
+        font-weight: bold;
+
+    }
+    .contact:after{
+            width:10vw;
+            height:3px;
+            position:relative;
+            display: block;
+            content:'';
+            bottom: -5px;
+            background-color:$deep;
+            margin:auto;
+    }
+    .label{
+        color:$deep;
+    }
+    .location{
+        color:$deep;
+        text-align: center;
+    }
+   
+}
+
+@media only screen and (max-width: 600px){
+    div{
+        .slide{
+            height: 50vh;
+        }
+        .card{
+            width: 100%;
+            margin-top:30px;
+            
+        }
+        .gridimage{
+            display: flex;
+            flex-direction: column;
+        }
+       
+    }
+
+
+}

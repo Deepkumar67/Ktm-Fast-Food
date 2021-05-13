@@ -1,11 +1,11 @@
 import React from 'react';
-import Routes from './Routes.js';
+import Home from './Components/Home.js';
 
 
 function App() {
   return (
    <React.Fragment>
-       <Routes/>
+       <Home/>
    </React.Fragment>
      
     
